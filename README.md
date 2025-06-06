@@ -32,42 +32,28 @@ SmartDoc Summarizer is an intelligent document summarization web application bui
 ## 🛠 Installation & Setup
 
 1. **Clone the Repository**
-
 git clone https://github.com/Jovalentine/SmartDoc-Summarizer.git
 cd SmartDoc-Summarizer
-Create & Activate Virtual Environment
-
+2. **Create & Activate Virtual Environment**
 python -m venv env
 env\Scripts\activate  # Windows
 source env/bin/activate  # Linux/macOS
-Install Dependencies
-
+3. **Install Dependencies**
 pip install -r requirements.txt
-Add Firebase Admin SDK
-
+4. **Add Firebase Admin SDK**
 Place your Firebase service account key JSON file inside the Assets/ folder.
-
 Make sure the file is .gitignored to prevent pushing secrets to GitHub.
-
-Run the App
-
-bash
-Copy
-Edit
+4. **Run the App**
 streamlit run app.py
+
 🔐 Security Considerations
 Password authentication via Firebase.
-
 Secret keys are excluded using .gitignore.
-
 Add OAuth (Google/GitHub) login support for production-grade auth (future work).
-
 Session handling with timeout alerts (optional enhancement).
 
 📂 Folder Structure
-bash
-Copy
-Edit
+
 SmartDoc-Summarizer/
 │
 ├── Assets/                         # Firebase key and assets
@@ -78,17 +64,15 @@ SmartDoc-Summarizer/
 ├── .gitignore                      # Ignored files
 └── README.md                       # Project documentation
 📈 Future Enhancements
+
 🔐 Google/GitHub OAuth authentication
-
 🧠 Switch to T5 / Pegasus for improved abstractive summaries
-
 🗃 File versioning and advanced history dashboard
-
 📊 Summary evaluation (e.g., ROUGE score visualization)
 
 👨‍💻 Developed By
 Francis Johan M
-
 Abishek I
 Mentor: E. Manohar
 Institution: Francis Xavier Engineering College
+
