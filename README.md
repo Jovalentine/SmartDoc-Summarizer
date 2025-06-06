@@ -18,13 +18,13 @@ SmartDoc Summarizer is an intelligent document summarization web application bui
 
 ## ⚙️ Tech Stack
 
-| Layer        | Technology Used                      |
-|--------------|--------------------------------------|
-| Frontend     | Streamlit                            |
-| Backend      | Python, Hugging Face Transformers    |
-| Authentication | Firebase Authentication           |
-| Database     | Firestore (Firebase)                 |
-| NLP Model    | `facebook/bart-large-cnn` (Transformers) |
+| Layer        | Technology Used                                              |
+|--------------|--------------------------------------                        |
+| Frontend     | Streamlit                                                    |
+| Backend      | Python, Hugging Face Transformers                            |
+| Authentication | Firebase Authentication                                    |
+| Database     | Firestore (Firebase)                                         |
+| NLP Model    | `facebook/bart-large-cnn` (Transformers)                     |
 | OCR Support  | `pytesseract` (for scanned images - optional future upgrade) |
 
 ---
