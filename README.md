@@ -33,22 +33,15 @@ SmartDoc Summarizer is an intelligent document summarization web application bui
 
 1. **Clone the Repository**
 
-```bash
 git clone https://github.com/Jovalentine/SmartDoc-Summarizer.git
 cd SmartDoc-Summarizer
 Create & Activate Virtual Environment
 
-bash
-Copy
-Edit
 python -m venv env
 env\Scripts\activate  # Windows
 source env/bin/activate  # Linux/macOS
 Install Dependencies
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Add Firebase Admin SDK
 
