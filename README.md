@@ -45,6 +45,7 @@ Place your Firebase service account key JSON file inside the Assets/ folder.
 Make sure the file is .gitignored to prevent pushing secrets to GitHub.
 4. **Run the App**
 streamlit run app.py
+if that is not working use this command python -m streamlit run app.py
 
 🔐 Security Considerations
 Password authentication via Firebase.
