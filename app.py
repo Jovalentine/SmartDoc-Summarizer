@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Initialize Firebase only if not already initialized
 if not firebase_admin._apps:
-    cred = credentials.Certificate(r"G:\SmartDoc Summarize\Assets\ai-document-summerize-firebase-adminsdk-fbsvc-4db17133d2.json")
+    cred = credentials.Certificate("ai-document-summerize-firebase-adminsdk-fbsvc-4db17133d2.json")
     firebase_admin.initialize_app(cred)
 
 # Firestore database reference
