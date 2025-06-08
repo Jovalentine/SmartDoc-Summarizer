@@ -4,3 +4,4 @@ torch
 pdfplumber
 python-docx
 PyPDF2
+firebase-admin
