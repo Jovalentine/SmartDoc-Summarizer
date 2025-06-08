@@ -8,9 +8,9 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 from datetime import datetime
 
-# Initialize Firebase if not already initialized
+# Initialize Firebase only if not already initialized
 if not firebase_admin._apps:
-   cred = credentials.Certificate(dict(st.secrets["firebase"]))
+    cred = credentials.Certificate(dict(st.secrets["firebase"]))
     firebase_admin.initialize_app(cred)
 
 # Firestore database reference
