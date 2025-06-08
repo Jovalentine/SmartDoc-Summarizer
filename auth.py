@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, auth
 
 # Correct path to your firebase key
-cred = credentials.Certificate("ai-document-summerize-firebase-adminsdk-fbsvc-682fd3b6ad.json")
+cred = credentials.Certificate(dict(st.secrets["firebase"]))
 firebase_admin.initialize_app(cred)
 
 # Function to register user
