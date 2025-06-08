@@ -3,3 +3,4 @@ transformers
 torch
 pdfplumber
 python-docx
+PyPDF2
